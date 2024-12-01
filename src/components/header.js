@@ -54,6 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    if (window.location.pathname === '/') {
+        mobileNavLinks[0].classList.add('active');
+    }
+
     if (window.location.pathname === '/portfolio/wewoosh.html') {
         mobileNavLinks[1].classList.add('active');
     }
