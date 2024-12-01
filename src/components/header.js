@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    if (window.location.pathname === '/') {
+        desktopNavLinks[0].classList.add('active');
+    }
+
     if (window.location.pathname === '/portfolio/wewoosh.html') {
         desktopNavLinks[1].classList.add('active');
     }
