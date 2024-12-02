@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileNavLinks[0].classList.add('active');
     }
 
-    if (window.location.pathname === '/portfolio/wewoosh.html') {
+    if (window.location.pathname === '/portfolio/wewoosh') {
         mobileNavLinks[1].classList.add('active');
     }
 
