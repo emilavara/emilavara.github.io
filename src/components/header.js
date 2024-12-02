@@ -5,7 +5,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
             <header>
                 <div class="container left">
-                    <a href="/index.html" aria-label="Link back to first page"><img class="me" height="32" width="32" alt="Me" src="/assets/images/me.webp"></a>
+                    <a href="/" aria-label="Link back to first page"><img class="me" height="32" width="32" alt="Me" src="/assets/images/me.webp"></a>
                 </div>
                 <div class="container center">
                     <div class="desktop-nav-container">
