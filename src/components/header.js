@@ -10,16 +10,16 @@ class Header extends HTMLElement {
                 <div class="container center">
                     <div class="desktop-nav-container">
                         <nav>
-                            <a class="desktop-nav-link" href="/index.html" data-link-to="intro">Intro</a>
-                            <a class="desktop-nav-link" href="/index.html#portfolio" data-link-to="/portfolio/wewoosh.html">Portfolio</a>
-                            <a class="desktop-nav-link" href="/about.html" data-link-to="/about.html">About</a>
-                            <a class="desktop-nav-link" href="/contact.html" data-link-to="/contact.html">Contact</a>
+                            <a class="desktop-nav-link" href="/index" data-link-to="intro">Intro</a>
+                            <a class="desktop-nav-link" href="/#portfolio" data-link-to="/portfolio/wewoosh.html">Portfolio</a>
+                            <a class="desktop-nav-link" href="/about" data-link-to="/about.html">About</a>
+                            <a class="desktop-nav-link" href="/contact" data-link-to="/contact.html">Contact</a>
                         </nav>
                     </div>
                 </div>
                 
                 <div class="container right">
-                    <a href="/contact.html" class="ea-btn primary small contact-btn-desktop">Get in touch</a>
+                    <a href="/contact" class="ea-btn primary small contact-btn-desktop">Get in touch</a>
                     <button aria-label="Hamburger button" id="hamburgerBtn"></button>
                 </div>
             </header>
