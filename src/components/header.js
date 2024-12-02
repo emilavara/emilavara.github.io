@@ -20,7 +20,7 @@ class Header extends HTMLElement {
                 
                 <div class="container right">
                     <a href="/contact.html" class="ea-btn primary small contact-btn-desktop">Get in touch</a>
-                    <button id="hamburgerBtn"></button>
+                    <button aria-label="Hamburger button" id="hamburgerBtn"></button>
                 </div>
             </header>
         `

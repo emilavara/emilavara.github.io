@@ -74,8 +74,6 @@ async function fetchRepos() {
   //set global var to res.data
   repos = data;
 
-  console.log(repos);
-
   //populate static portfolio object with results from github
   repos.forEach((repo) => {
     let objToAdd = {
@@ -137,6 +135,7 @@ async function render() {
     if (item.thumbnailType === "image") {
       const elemImage = document.createElement("img");
       elemImage.src = item.thumbnailSrc;
+      elemImage.alt = item.name + ' thumbnail'
       elemImageContainer.append(elemImage);
     }
 
