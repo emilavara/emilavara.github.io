@@ -12,7 +12,7 @@ let portfolio = [
     name: "Wewoosh",
     thumbnailType: "image",
     thumbnailSrc: "../assets/images/wewoosh.webp",
-    url: "/portfolio/wewoosh.html",
+    url: "/portfolio/wewoosh",
     year: "2021 - 2023",
     class: "wewoosh",
     outbound: false,
@@ -204,7 +204,8 @@ async function render() {
 //render portfolio if on intro site
 if (
   window.location.pathname === "/" ||
-  window.location.pathname === "/index.html"
+  window.location.pathname === "/index.html" ||
+  window.location.pathname === '/index'
 ) {
   render();
 }

@@ -10,7 +10,7 @@ class Header extends HTMLElement {
                 <div class="container center">
                     <div class="desktop-nav-container">
                         <nav>
-                            <a class="desktop-nav-link" href="/index" data-link-to="intro">Intro</a>
+                            <a class="desktop-nav-link" href="/" data-link-to="intro">Intro</a>
                             <a class="desktop-nav-link" href="/#portfolio" data-link-to="/portfolio/wewoosh.html">Portfolio</a>
                             <a class="desktop-nav-link" href="/about" data-link-to="/about.html">About</a>
                             <a class="desktop-nav-link" href="/contact" data-link-to="/contact.html">Contact</a>
