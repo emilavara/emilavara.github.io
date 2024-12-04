@@ -1,19 +1,11 @@
-@keyframes verticalLines {
+@keyframes appear {
     from {
-        height: 0;
+        transform: translateY(15rem);
+        opacity: 0;
     }
 
     to {
-        height: 100dvh;
-    }
-}
-
-@keyframes blur {
-    from {
-        backdrop-filter: blur(16px);
-    }
-    
-    to {
-        backdrop-filter: blur(0px);
+        transform: translateY(0rem);
+        opacity: 1;
     }
 }
