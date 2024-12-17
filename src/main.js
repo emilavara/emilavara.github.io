@@ -100,7 +100,9 @@ async function fetchRepos() {
       outbound: true,
     };
 
-    portfolio.push(objToAdd);
+    if (objToAdd.name != 'emilavara.github.io' && objToAdd.name != 'u04-webshop') {
+      portfolio.push(objToAdd);
+    }
   });
 }
 
