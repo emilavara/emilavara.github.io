@@ -216,3 +216,30 @@ if (
 const lenis = new Lenis({
   autoRaf: true,
 });
+
+const splashScreen = document.querySelector('.ea-splash-screen') 
+
+
+if (localStorage.getItem('firstVisit') === null) {
+	document.body.classList.add('lock-body')
+	splashScreen.addEventListener('animationend', () => {
+		setTimeout(() => {
+			splashScreen.classList.add('text-out')
+			splashScreen.addEventListener('animationend', () => {
+				splashScreen.classList.add('fade-out')
+				splashScreen.addEventListener('animationend', () => {
+					document.body.classList.remove('lock-body')
+					splashScreen.remove();
+					localStorage.setItem('firstVisit', false)
+				}, {once: true})
+			}, {once: true})
+		  }, "500");	  
+	}, {once: true})
+} else if (localStorage.getItem('firstVisit') === 'false') {
+	splashScreen.classList.add('fade-out');
+	splashScreen.classList.add('no-text');
+	splashScreen.addEventListener('animationend', () => {
+		splashScreen.remove();
+	})
+}
+

@@ -15,6 +15,7 @@ html {
     background: var(--bg-color);
     scroll-behavior: smooth;
 
+
     font-size: 16px;
 
     @media (min-width: 1920px) {
