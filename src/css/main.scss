@@ -1,0 +1,61 @@
+@use './typography.scss' as *;
+@use './utilities.scss' as *;
+@use './animations.scss' as *;
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+body {
+    background-color: #070707;
+    color: white;
+    font-family: 'SF Mono', monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+
+    section {
+        .img-container {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 10rem;
+            }
+        }
+    }
+
+    .socials {
+        a {
+            color: white;
+            font-size: 20px;
+
+            &:hover {
+                color: orangered;
+            }
+        }
+    }
+}
+
+.react-slander {
+    cursor: none;
+}
