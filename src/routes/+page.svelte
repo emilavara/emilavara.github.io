@@ -3,7 +3,7 @@
     
     import GithubLogo from "phosphor-svelte/lib/GithubLogo";
     import XLogo from "phosphor-svelte/lib/XLogo";
-    import LinkedInLogo from "phosphor-svelte/lib/LinkedInLogo";
+    import LinkedinLogo from "phosphor-svelte/lib/LinkedinLogo";
     import Envelope from "phosphor-svelte/lib/EnvelopeSimple";
     import BehanceLogo from "phosphor-svelte/lib/BehanceLogo";
 
@@ -32,7 +32,7 @@
         <div style="--ao: 6;" class="socials fade-in">
             <a href="https://github.com/emilavara" target="_blank"><GithubLogo/></a>
             <a href="https://google.com" target="_blank"><BehanceLogo/></a>
-            <a href="https://linkedin.com/in/emilavara" target="_blank"><LinkedInLogo/></a>
+            <a href="https://linkedin.com/in/emilavara" target="_blank"><LinkedinLogo/></a>
             <a href="https://x.com/emilavara" target="_blank"><XLogo/></a>
             <a href="mailto:emilavara@hotmail.com" target="_blank"><Envelope/></a>
         </div>
