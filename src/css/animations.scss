@@ -24,3 +24,11 @@
     animation: fadeIn 0.66s ease forwards;
     animation-delay: calc(var(--ao) * 333ms);
 }
+
+html.has-seen-intro {
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn 0.66s ease forwards;
+        animation-delay: 2s;
+    }
+}
